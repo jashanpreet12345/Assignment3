@@ -1,0 +1,142 @@
+
+body {
+  background-image: url("../images/candy-background.jpg");
+  text-align: center;
+}
+
+.liquid{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-color: aliceblue;
+}
+
+
+h2{
+  color: slateblue;
+  font-size: 40px;
+  background-color: lavenderblush;
+}
+
+section{
+  font-family: cursive;
+  font-size: 20px;
+}
+
+footer {
+  background-color: grey;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: skyblue;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffcc00;
+}
+
+a {
+  box-shadow: inset 0 0 0 0 mediumvioletred;
+  color: mediumvioletred;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0 mediumvioletred;
+  color: white;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+   max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.image {
+  display: block;
+  width: 400px;
+  height: 400px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ab78ab;
+  overflow: hidden;
+  width: 400px;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  width:400px;
+  height: 400px;
+}
+
+.text {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#text{
+  font-size: 30px;
+}
+
+#why{
+  font-size: 20px;
+}
